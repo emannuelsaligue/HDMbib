@@ -1,0 +1,41 @@
+@media only screen and (min-width:600px){
+  
+   
+    .header-title {
+   font-size: 14pt;
+}
+
+  [data-role=header] .header-title {
+        font-size: 14px;
+            text-overflow: ellipsis;
+
+  width: 80%;
+  margin-left: 80px;
+    padding: 16px 0 10px 0;
+  } 
+#searchbox{
+    width: 210px;
+    height: 42px;
+}
+.backButton{
+       	width: 25px;
+  		padding: 5px;
+  		position: fixed;
+  		top: 7px;
+  		left: 70px;
+       }
+ #img_f{
+    width: 600px;
+ }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width:600px) and (orientation : landscape)  { 
+   .header-title {
+   font-size: 14pt;
+}
+
+ #img_f{
+    width: 600px;
+ }
+}
